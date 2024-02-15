@@ -6,7 +6,7 @@ import logging
 
 # бот здесь https://t.me/converter_easybite_bot
 
-bot = telebot.TeleBot('6942884627:AAGWAE7iDCAsXe7MAiQmFNUuK4sk8u_dLLs')
+bot = telebot.TeleBot('')
 logging.basicConfig(filename='bot_log.txt', level=logging.INFO)
 def log_user_action(user_id, action):
     logging.info(f"Пользователь {user_id} выполнил действие: {action}")
