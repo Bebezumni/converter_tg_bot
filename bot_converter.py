@@ -22,7 +22,7 @@ def handle_help(message):
     bot.send_message(message.chat.id, "Доступные команды:\n"
                                       "/start - приветствие и описание функционала\n"
                                       "/help - справка по командам\n"
-                                      "/convert [сумма] [из валюты] to [в валюту] - конвертация валюты")
+                                      "/convert [сумма] [из валюты] to [в валюту] - конвертация валюты (Например: /convert 1000 rub to usd)")
     log_user_action(message.chat.id, "/help")
 
 @bot.message_handler(commands=['convert'])
